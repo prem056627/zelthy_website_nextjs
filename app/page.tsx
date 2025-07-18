@@ -26,7 +26,7 @@ export default function Home() {
       {/* hero  Content */}
       <div className="relative z-10 bg-white  border-b border-gray-200">
         {/* Dynamic background image container */}
-        <div className="bg-[url('/images/Background-11.png')] bg-cover bg-center bg-no-repeat lg:bg-[url('/images/Background.png')] lg:bg-cover lg:bg-center lg:bg-no-repeat xl:bg-contain 2xl:bg-cover">
+        <div className="bg-[url('/images/Background-11.png')] bg-cover bg-center bg-no-repeat lg:bg-[url('/images/Background.png')] lg:bg-cover lg:bg-center lg:bg-no-repeat ">
           <div className=" mx-auto  ">
             {/* <Header /> */}
             <Hero />
