@@ -133,7 +133,7 @@ const ZelthyPlatform = () => {
       }`}
     >
       <div className="flex items-start gap-3 sm:gap-4">
-        <div className="p-2 sm:p-3 bg-purple-50 rounded-lg">
+        <div className="p-2 sm:p-3 bg-[#F2F1FF] rounded-lg">
           <img src={feature.icon} alt="" />
         </div>
         <div className="flex-1">
@@ -165,7 +165,7 @@ const ZelthyPlatform = () => {
       }`}
     >
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="p-2 sm:p-3 bg-purple-50 rounded-lg sm:     ">
+                  <div className="p-2 sm:p-3 bg-[#F2F1FF] rounded-lg sm:     ">
                     <img src={feature.icon} alt="" />
                   </div>
                   <div className="flex-1">
