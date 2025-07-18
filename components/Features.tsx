@@ -3,19 +3,19 @@
 
 const features = [
   {
-    icon: '/images/project/roche.svg', // Updated to lowercase
+    icon: '/images/Project/roche.svg', // Updated to lowercase
   },
   {
-    icon: '/images/project/dksh.svg',
+    icon: '/images/Project/dksh.svg',
   },
   {
-    icon: '/images/project/bms.svg',
+    icon: '/images/Project/bms.svg',
   },
   {
-    icon: '/images/project/msd.svg',
+    icon: '/images/Project/msd.svg',
   },
   {
-    icon: '/images/project/az.svg',
+    icon: '/images/Project/az.svg',
   }
 ]
 
