@@ -11,8 +11,8 @@ export default function Hero() {
 
   // Close menu when clicking outside
   useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (isMenuOpen && !event.target.closest('.mobile-menu-container')) {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (isMenuOpen && event.target && !(event.target as Element).closest('.mobile-menu-container')) {
         setIsMenuOpen(false);
       }
     };
