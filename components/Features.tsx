@@ -1,23 +1,21 @@
 // Features.js
 'use client'
 
-import { Shield, Shuffle, Briefcase, Share2, AlignVerticalJustifyEnd, Grid2X2, Layers, Target, Grid3X3, Camera } from 'lucide-react'
-
 const features = [
   {
-    icon: '/Images/Project/roche.svg',
+    icon: '/images/project/roche.svg', // Updated to lowercase
   },
   {
-    icon: '/Images/Project/dksh.svg',
+    icon: '/images/project/dksh.svg',
   },
   {
-    icon: '/Images/Project/bms.svg',
+    icon: '/images/project/bms.svg',
   },
   {
-    icon: '/Images/Project/msd.svg',
+    icon: '/images/project/msd.svg',
   },
   {
-    icon: '/Images/Project/az.svg',
+    icon: '/images/project/az.svg',
   }
 ]
 
@@ -44,6 +42,10 @@ export default function Features() {
                       src={feature.icon} 
                       alt="Brand logo" 
                       className="h-6 w-auto sm:h-6 lg:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300" 
+                      onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                        console.error('Image failed to load:', feature.icon);
+                        e.currentTarget.style.display = 'none';
+                      }}
                     />
                   </div>
                 </div>
