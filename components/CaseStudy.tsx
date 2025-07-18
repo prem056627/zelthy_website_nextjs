@@ -18,7 +18,7 @@ const CaseStudy = () => {
   ];
 
   return (
-    <section className=" lg:py-20 bg-gray-50 mb-16 md:mb-0 ">
+    <section className=" lg:py-20 bg-gray-50 mb-16 md:mb-20 ">
       <div className="">
         {/* Main Featured Case Study */}
        <div className="">

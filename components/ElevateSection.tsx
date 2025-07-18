@@ -40,13 +40,13 @@ const features = [
 
 export default function ElevateSection() {
   return (
-    <section className="pt-12  lg:pt-24 bg-white mb-16 md:mb-0 lg:mb-0">
+    <section className="pt-12  lg:pt-24 bg-white mb-16 md:mb-20 lg:mb-0">
       <div className="">
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
           <div className="inline-flex items-center gap-2 bg-[#FAFAFA] rounded-full px-4 py-2 text-sm text-gray-600 mb-6 border border-gray-200">
             {/* <Zap className="h-3 w-3 sm:h-4 sm:w-4 text-grey-600" /> */}
-            <img src="/images/insights.svg" alt="" />
+            <img src="/images/Insights.svg" alt="" />
             <span className="text-[13px] sm:text-[14px] lg:text-[15px] text-[#333]  font-medium">Insights</span>
           </div>
           

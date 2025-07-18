@@ -3,19 +3,24 @@
 
 const features = [
   {
-    icon: '/images/Project/roche.svg', // Updated to lowercase
+    deskicon: '/images/Project/roche.svg', 
+    mobicon: '/images/Project/roche-1.svg',
   },
   {
-    icon: '/images/Project/dksh.svg',
+    deskicon: '/images/Project/dksh.svg',
+    mobicon: '/images/Project/dksh-1.svg',
   },
   {
-    icon: '/images/Project/bms.svg',
+    deskicon: '/images/Project/bms.svg',
+    mobicon: '/images/Project/bms-1.svg',
   },
   {
-    icon: '/images/Project/msd.svg',
+    deskicon: '/images/Project/msd.svg',
+    mobicon: '/images/Project/msd-1.svg',
   },
   {
-    icon: '/images/Project/az.svg',
+    deskicon: '/images/Project/az.svg',
+    mobicon: '/images/Project/az-1.svg',
   }
 ]
 
@@ -38,12 +43,24 @@ export default function Features() {
               return (
                 <div key={index} className="bg-white border border-[#E7E9EF] rounded-[12px] px-4 sm:px-6 lg:px-6 py-3 sm:py-4 lg:py-4 flex items-center justify-center shrink-0 mx-2 sm:mx-3 lg:mx-4 shadow-sm hover:shadow-md transition-shadow duration-300">
                   <div className="flex items-center justify-center">
+                    {/* Desktop Icon - shown on large screens */}
                     <img 
-                      src={feature.icon} 
+                      src={feature.deskicon} 
                       alt="Brand logo" 
-                      className="h-6 w-auto sm:h-6 lg:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300" 
+                      className="hidden lg:block h-6 w-auto sm:h-6 lg:h-8 object-contain grayscale hover:grayscale-0 transition-all duration-300" 
                       onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-                        console.error('Image failed to load:', feature.icon);
+                        console.error('Desktop image failed to load:', feature.deskicon);
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                    
+                    {/* Mobile/Tablet Icon - shown on mobile and tablet screens */}
+                    <img 
+                      src={feature.mobicon} 
+                      alt="Brand logo" 
+                      className="lg:hidden h-6 w-auto sm:h-6 object-contain grayscale hover:grayscale-0 transition-all duration-300" 
+                      onError={(e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+                        console.error('Mobile image failed to load:', feature.mobicon);
                         e.currentTarget.style.display = 'none';
                       }}
                     />

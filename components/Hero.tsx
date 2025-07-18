@@ -1,8 +1,6 @@
 // Hero.js
 'use client'
 
-import { Settings, ArrowRight } from 'lucide-react'
-import Link from 'next/link'
 import Features from './Features';
 import { useState, useEffect } from 'react';
 

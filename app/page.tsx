@@ -1,6 +1,5 @@
-import Header from "@/components/Header";
+
 import Hero from "@/components/Hero";
-import Features from "@/components/Features";
 import ElevateSection from "@/components/ElevateSection";
 import CoreAreas from "@/components/CoreAreas";
 import ZelthyPlatform from "@/components/ZelthyPlatform";
@@ -9,7 +8,6 @@ import ZelthyStats from "@/components/ZelthyStats";
 import CaseStudy from "@/components/CaseStudy";
 import Integrations from "@/components/Integrations";
 import BlogSection from "@/components/BlogSection";
-// import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import ContactSection from "@/components/ContactSection";
 

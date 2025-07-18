@@ -66,10 +66,10 @@ const Integrations = () => {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
             {/* Left Content */}
 
-          <div className=" md:hidden lg:hidden px-4   flex flex-col w-full items-center justify-center py-6 pt-8">
+          <div className="  lg:hidden px-4   flex flex-col w-full items-center justify-center py-6 pt-8">
             <div className="inline-flex items-center gap-2 bg-[#FAFAFA] rounded-full px-4 py-2 text-sm text-gray-600 mb-6 border border-gray-200 w-fit">
            
-              <img src="/images/project/trophy.svg" alt="" />
+              <img src="/images/Project/trophy.svg" alt="" />
              Key Feature
             </div>
             
@@ -84,7 +84,7 @@ const Integrations = () => {
 
 
           {/* Left Content */}
-          <div className="hidden md:block lg:block order-2 lg:order-1 p-12">
+          <div className="hidden md:hidden lg:block order-2 lg:order-1 p-12">
             <div className="inline-flex items-center gap-2 bg-[#FAFAFA] rounded-full px-4 py-2 text-sm text-gray-600 mb-6 border border-gray-200 w-fit">
               <Star className="w-4 h-4" />
               Integrations

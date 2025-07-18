@@ -45,7 +45,7 @@ const PoweringTherapies = () => {
             Partners
           </div>
           
-          <h2 className="text-3xl sm:text-4xl font-medium text-gray-900 mb-6 max-w-4xl mx-auto leading-[40px] md:leading-[50px] leading-[60px]">
+          <h2 className="text-3xl sm:text-4xl font-medium text-gray-900 mb-6 max-w-4xl mx-auto leading-[40px] md:leading-[50px] lg:leading-[60px]">
             Powering Leading<br />Therapies Globally
           </h2>
         </div>
