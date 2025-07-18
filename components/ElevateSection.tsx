@@ -63,7 +63,7 @@ export default function ElevateSection() {
         <div className="grid grid-cols-1 md:grid-cols-2  ">
           {/* Large cards for first two features */}
           {features.slice(0, 2).map((feature, index) => (
-            <div key={index} className="bg-[#FCFCFD]  p-3 sm:p-4 pt-4 sm:pt-6 lg:pt-8 border-t  md:border      cursor-pointer">
+            <div key={index} className="bg-[#FCFCFD]  p-3 sm:p-4 pt-4 sm:pt-6 lg:pt-8 border-t  md:border-[.8px]      cursor-pointer">
              {/* <div className='bg-red-300'> */}
                <div className="flex justify-between items-start ">
                 <h3 className=" text-[17px] sm:text-[19px] lg:text-[21px] font-[500] text-[#262626]   pr-3 sm:pr-4">
