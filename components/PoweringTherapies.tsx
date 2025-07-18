@@ -55,28 +55,28 @@ const PoweringTherapies = () => {
           <div className="">
             {/* First Row - 4 logos */}
             <div className="grid grid-cols-4 ">
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[0].logo} 
                   alt="Therapy logo 1"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[1].logo} 
                   alt="Therapy logo 2"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[2].logo} 
                   alt="Therapy logo 3"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200 flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200 flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[3].logo} 
                   alt="Therapy logo 4"
@@ -87,7 +87,7 @@ const PoweringTherapies = () => {
             
             {/* Second Row - logo, text, logo */}
             <div className="grid grid-cols-3 items-center">
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[4].logo} 
                   alt="Therapy logo 5"
@@ -102,7 +102,7 @@ const PoweringTherapies = () => {
                   </h2>
                 </div>
               </div>
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[5].logo} 
                   alt="Therapy logo 6"
@@ -113,28 +113,28 @@ const PoweringTherapies = () => {
             
             {/* Third Row - 4 logos */}
             <div className="grid grid-cols-4 ">
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[6].logo} 
                   alt="Therapy logo 7"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[7].logo} 
                   alt="Therapy logo 8"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200  flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200  flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[8].logo} 
                   alt="Therapy logo 9"
                   className="  h-full w-auto object-contain"
                 />
               </div>
-              <div className="bg-white       border border-gray-200 flex items-center justify-center min-h-[160px]">
+              <div className="bg-white       md:border border-gray-200 flex items-center justify-center min-h-[160px]">
                 <img 
                   src={therapyLogos[9].logo} 
                   alt="Therapy logo 10"
@@ -185,7 +185,7 @@ const PoweringTherapies = () => {
             {therapyLogos.map((therapy, index) => (
               <div 
                 key={index}
-                className="bg-white    p-3 border border-gray-200 flex items-center justify-center min-h-[120px]"
+                className="bg-white    p-3 border-[.5px] border-gray-200 flex items-center justify-center min-h-[120px]"
               >
                 <img 
                   src={therapy.logo} 
