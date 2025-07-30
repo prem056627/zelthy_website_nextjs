@@ -3,6 +3,7 @@
 
 import Features from './Features';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,8 +56,8 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
             </div>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">Case Study</a>
-            <a href="#" className="text-white hover:text-gray-300 transition-colors">Blog</a>
+            <Link href="/case-study" className="text-white hover:text-gray-300 transition-colors">Case Study</Link>
+            <Link href="/blog" className="text-white hover:text-gray-300 transition-colors">Blog</Link>
           </div>
           
           {/* Mobile/Tablet Menu Button */}
@@ -106,8 +107,8 @@ export default function Hero() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                       </svg>
                     </div>
-                    <a href="#" className="block text-white text-lg font-[400] hover:text-gray-300 transition-colors py-3">Case Study</a>
-                    <a href="#" className="block text-white text-lg font-[400] hover:text-gray-300 transition-colors py-3">Blog</a>
+                    <Link href="/case-study" className="block text-white text-lg font-[400] hover:text-gray-300 transition-colors py-3">Case Study</Link>
+                    <Link href="/blog" className="block text-white text-lg font-[400] hover:text-gray-300 transition-colors py-3">Blog</Link>
                   </div>
                 </div>
                 

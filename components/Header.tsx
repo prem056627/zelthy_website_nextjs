@@ -10,15 +10,15 @@ export default function Header() {
         <div className="relative flex items-center justify-between px-4 py-3">
           {/* Left Navigation */}
           <nav className="flex items-center gap-4">
-            <button className="bg-white flex items-center gap-1 px-5 py-2.5 rounded-xl hover:bg-grey-100 transition-colors">
+            <Link href="/" className="bg-white flex items-center gap-1 px-5 py-2.5 rounded-xl hover:bg-grey-100 transition-colors">
               <span className="text-dark-10 text-[16px] font-medium font-inter">Home</span>
               <ChevronDown className="h-4 w-4 text-dark-10" />
-            </button>
+            </Link>
             <Link href="/app" className="text-white hover:text-grey-200 font-inter text-[16px] font-medium">
               App
             </Link>
-            <Link href="/blogs" className="text-white hover:text-grey-200 font-inter text-[16px] font-medium">
-              Blogs
+            <Link href="/blog" className="text-white hover:text-grey-200 font-inter text-[16px] font-medium">
+              Blog
             </Link>
           </nav>
 
